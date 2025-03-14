@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="435.0" prefWidth="400.0" style="-fx-background-color: darkcyan;" stylesheets="@mainSS.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.indivproj2_v1.mainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" alignment="CENTER" contentDisplay="CENTER" prefHeight="90.0" prefWidth="360.0" style="-fx-background-color: cadetblue;" text=" LOGIN -------------------------" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font name="Book Antiqua" size="34.0" />
+      </font></Label>
+   <VBox alignment="TOP_CENTER" prefHeight="310.0" prefWidth="360.0" style="-fx-background-color: cadetblue;">
+      <children>
+         <HBox alignment="CENTER" prefHeight="75.0" prefWidth="260.0" style="-fx-background-color: cadetblue;">
+            <children>
+               <Label alignment="CENTER_RIGHT" prefHeight="27.2" prefWidth="129.6" text="EMAIL: ">
+                  <font>
+                     <Font name="Book Antiqua" size="21.0" />
+                  </font>
+               </Label>
+               <TextField fx:id="logUser" prefHeight="27.0" prefWidth="140.0" />
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="75.0" prefWidth="260.0" style="-fx-background-color: cadetblue;">
+            <children>
+               <Label text="PASSWORD: ">
+                  <font>
+                     <Font name="Book Antiqua" size="21.0" />
+                  </font>
+               </Label>
+               <PasswordField fx:id="logPass" prefHeight="27.0" prefWidth="140.0" />
+            </children>
+         </HBox>
+         <Label fx:id="logFail" prefHeight="40.0" prefWidth="200.0" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Book Antiqua" size="14.0" />
+            </font>
+            <VBox.margin>
+               <Insets bottom="10.0" />
+            </VBox.margin>
+         </Label>
+         <Button fx:id="logInButton" mnemonicParsing="false" onAction="#onLogINBtnClick" prefHeight="45.0" prefWidth="120.0" styleClass="mainBtn" text="LOG IN">
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <effect>
+               <Blend mode="DARKEN" />
+            </effect>
+            <font>
+               <Font name="Book Antiqua" size="20.0" />
+            </font></Button>
+         <Button fx:id="backBtn" mnemonicParsing="false" onAction="#onBackBtnClick" prefHeight="26.0" prefWidth="70.0" styleClass="mainBtn" text="Back">
+            <VBox.margin>
+               <Insets top="20.0" />
+            </VBox.margin>
+            <font>
+               <Font name="Book Antiqua" size="15.0" />
+            </font>
+         </Button>
+      </children>
+   </VBox>
+</VBox>

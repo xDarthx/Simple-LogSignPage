@@ -1,0 +1,17 @@
+[
+  {
+  "Username": "admin",
+  "Password": "Password1",
+  "Email": "adminAccount.gmail.com"
+  },
+  {
+    "Username": "Darth",
+    "Password": "Password1!",
+    "Email": "jacob.grant@gmail.com"
+  },
+  {
+    "Username": "Admin",
+    "Password": "$2a$10$SNelCaxaU9u6U0TkBEpMouEwVPWDUTw9cbMNlBhX5.bPtSnOyv5Vu",
+    "Email": "adminAccount.gmail.com"
+  }
+]

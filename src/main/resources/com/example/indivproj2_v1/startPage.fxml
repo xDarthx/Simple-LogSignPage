@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="435.0" prefWidth="400.0" style="-fx-background-color: darkcyan;" stylesheets="@mainSS.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.indivproj2_v1.mainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label accessibleRoleDescription="------" alignment="CENTER" contentDisplay="CENTER" prefHeight="105.0" prefWidth="358.0" style="-fx-background-color: cadetblue;" text="BEST PAGE EVER ------------------------------" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Book Antiqua" size="32.0" />
+         </font>
+      </Label>
+      <VBox alignment="TOP_CENTER" prefHeight="310.0" prefWidth="360.0" spacing="20.0" style="-fx-background-color: cadetblue;">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="logInBtn" mnemonicParsing="false" onAction="#onLogInBtnClick" prefHeight="48.0" prefWidth="150.0" styleClass="mainBtn" text="LOG IN">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Book Antiqua" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="signInBtn" layoutX="97.0" layoutY="43.0" mnemonicParsing="false" onAction="#onSignInBtnClick" prefHeight="48.0" prefWidth="150.0" styleClass="mainBtn" text="SIGN UP">
+                     <font>
+                        <Font name="Book Antiqua" size="20.0" />
+                     </font></Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
