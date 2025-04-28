@@ -1,0 +1,1 @@
+This is a log in page built in IntelliJ with languages Java and CSS. You can also Sign up or Log in and has cabability to save all information into a database but for simplicity it is saved in a json file.
